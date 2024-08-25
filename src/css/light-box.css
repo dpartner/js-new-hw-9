@@ -1,0 +1,12 @@
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.gallery-item {
+  flex-basis: calc((100% - 24px) / 3);
+}
